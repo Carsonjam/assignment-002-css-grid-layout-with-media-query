@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    height:100vh;
+    grid-template-columns: 3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr ;
+    grid-template-rows: 0.4fr 3fr 0.4fr;
+    grid-template-areas: 
+        "leftsidebar main rightsidebar"
+        "sidebar politics politics"
+        "sidebar technology technology"
+        "sidebar locals locals "
+        "sidebar opinion opinion"
+        "sidebar sports sports" 
+    ;
+    
+}
